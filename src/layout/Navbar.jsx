@@ -19,6 +19,13 @@ export default function Navbar() {
             About me
           </NavLink>
           <NavLink
+            to="/Portfolio"
+            className="px-6 text-3xl text-emerald-950 hover:underline"
+          >
+            Projects
+          </NavLink>
+
+          <NavLink
             to="/Contact"
             className="px-6 text-3xl text-emerald-950 hover:underline"
           >
