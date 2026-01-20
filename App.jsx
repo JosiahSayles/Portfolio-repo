@@ -1,9 +1,10 @@
-import { Routes, Route } from "react";
-import Layout from "./layout/Layout";
-import HomePage from "./Components/Home-page";
-import AboutPage from "./Components/About-page";
-import Portfolio from "./Components/Portfolio";
-import ContactPage from "./Components/Contact-page";
+import { Routes, Route } from "react-router";
+import React from "react";
+import Layout from "./src/layout/Layout";
+import HomePage from "./src/Components/Home-page";
+import AboutPage from "./src/Components/About-page";
+import Portfolio from "./src/Components/Portfolio";
+import ContactPage from "./src/Components/Contact-page";
 
 export default function App() {
   return (
