@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router";
 export default function Navbar() {
   return (
     <>
-      <header className="fixed top-0 left-0 w-full shadow-xl z-50 flex justify-center items-baseline bg-white shadow-lg px-6 py-6 opacity-80 ">
+      <header className="top-0 left-0 w-full shadow-xl z-50 flex justify-center items-baseline bg-white shadow-lg px-6 py-6 opacity-80 ">
         <div className="flex">
           <NavLink
             to="/"
@@ -13,16 +13,17 @@ export default function Navbar() {
             Home
           </NavLink>
           <NavLink
-            to="/About"
-            className="px-6 text-3xl text-emerald-950 hover:underline"
-          >
-            About me
-          </NavLink>
-          <NavLink
             to="/Portfolio"
             className="px-6 text-3xl text-emerald-950 hover:underline"
           >
             Projects
+          </NavLink>
+
+          <NavLink
+            to="/About"
+            className="px-6 text-3xl text-emerald-950 hover:underline"
+          >
+            About me
           </NavLink>
 
           <NavLink

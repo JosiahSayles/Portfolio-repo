@@ -44,12 +44,12 @@ function HomePage() {
             <div className="flex items-center bg-black text-xl text-white pl-10 pb-5 pt-2 w-max-50 font-semibold">
               <div>
                 <p className="font-semibold underline">Featured Projects:</p>
-                <p>Pyhton Survey UI | Python, Tkinter</p>
+                <p>- Pyhton Survey UI | Python, Tkinter</p>
                 <p>
-                  Siahville Sticker E-commerce Site | React, TailwindCSS, JS
+                  - Siahville Sticker E-commerce Site | React, TailwindCSS, JS
                 </p>
                 <p>
-                  DIYMA Fullstack Web App | React, JS, PostgresSQL, Express,
+                  - DIYMA Fullstack Web App | React, JS, PostgresSQL, Express,
                   Node.js, TailwindCSS
                 </p>
               </div>
