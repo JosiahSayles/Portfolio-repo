@@ -47,7 +47,12 @@ function Portfolio() {
                     >
                       Link to Diyma website
                     </a>
-                    <a className="hover:underline" href="">
+                    <a
+                      className="hover:underline"
+                      href="https://github.com/rpower271/DIYMA-Front-End"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       Link to Github repo
                     </a>
                   </div>
@@ -110,7 +115,12 @@ function Portfolio() {
                     JavaScript, React, Express, Postgres SQL, TailwindCSS, CSS3.
                   </p>
                   <div className="font-bold text-xl text-cyan-700 mt-6">
-                    <a className="hover:underline" href="">
+                    <a
+                      className="hover:underline"
+                      href="https://github.com/JosiahSayles/SiahVille-Webpage-"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       Link to Github repo
                     </a>
                   </div>
@@ -167,7 +177,12 @@ function Portfolio() {
                   <h4 className="font-semibold">Key Technologies :</h4>
                   <p>Python, Tkinter</p>
                   <div className="font-bold text-lg text-cyan-700 mt-6">
-                    <a className="hover:underline" href="">
+                    <a
+                      className="hover:underline"
+                      href="https://github.com/JosiahSayles/Data_entry_ui_Python"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       Link to Github repo
                     </a>
                   </div>
@@ -222,7 +237,12 @@ function Portfolio() {
                   <h4 className="font-semibold">Key Technologies :</h4>
                   <p>Python, Tkinter</p>
                   <div className="font-bold text-lg text-cyan-700 mt-6">
-                    <a className="hover:underline" href="">
+                    <a
+                      className="hover:underline"
+                      href="https://github.com/JosiahSayles/Survey-UI-Python-"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       Link to Github repo
                     </a>
                   </div>
@@ -278,7 +298,12 @@ function Portfolio() {
                     utilizing TailwindCSS.
                   </p>
                   <div className="font-bold text-lg text-cyan-700 mt-6">
-                    <a className="hover:underline" href="">
+                    <a
+                      className="hover:underline"
+                      href="https://github.com/JosiahSayles/Portfolio-repo"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       Link to Github repo
                     </a>
                   </div>
