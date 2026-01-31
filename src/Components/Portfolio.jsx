@@ -5,7 +5,7 @@ function Portfolio() {
   return (
     <>
       <VideoBackground src="/videos/backgroundVideo.mp4">
-        <section className=" flex-col mt-20 justify-items-center min-h-screen">
+        <section className=" flex-col mt-20 justify-items-center min-h-screen mb-10">
           <div className="flex-col text-white justify-items-center max-w-700 bg-black p-6">
             <h1 className="text-white text-4xl mb-10 underline">Projects</h1>
             <h2 className="text-xl font-semibold mb-4 ">
@@ -35,9 +35,9 @@ function Portfolio() {
                   including detailed timelines, budgets, and material lists,
                   while also creating a supportive community for collaboration
                   and inspiration.
-                  <div className="font-bold text-xl mt-20 max-w-60 justify-center">
+                  <div className="font-bold text-cyan-700 text-xl mt-20  max-w-60 justify-center">
                     <a
-                      className="hover:underline p-2"
+                      className="hover:underline p-2  mb-10"
                       href="https://diyma.netlify.app/"
                     >
                       {" "}
@@ -73,8 +73,8 @@ function Portfolio() {
                 autoPlay
                 muted
                 playsInline
-                src="/videos/DiymaPresentation.mp4"
-                className="max-w-180 p-2"
+                src="/videos/DiymaOverview.mp4"
+                className="max-w-190 p-2"
               ></video>
             </div>
           </div>
@@ -97,7 +97,7 @@ function Portfolio() {
                   JavaScript as my main programming language, React, React
                   router, Express, Postgres SQL, and styling via TailwindCSS and
                   CSS3.
-                  <div className="font-bold text-xl mt-20 max-w-70 justify-center">
+                  <div className="font-bold text-xl text-cyan-700 mt-20 max-w-70 justify-center">
                     <a className="hover:underline" href="">
                       Link to Github repo
                     </a>
@@ -150,7 +150,7 @@ function Portfolio() {
                   <h6>
                     (As Python is a new language I’m actively self-learning)
                   </h6>
-                  <div className="font-bold text-lg mt-20 max-w-70 justify-center">
+                  <div className="font-bold text-lg  text-cyan-700 mt-20 max-w-70 justify-center">
                     <a className="hover:underline" href="">
                       Link to Github repo
                     </a>
@@ -198,7 +198,7 @@ function Portfolio() {
                   <h6>
                     (As Python is a new language I’m actively self-learning)
                   </h6>
-                  <div className="font-bold text-lg mt-20 max-w-70 justify-center">
+                  <div className="font-bold text-lg text-cyan-700 mt-20 max-w-70 justify-center">
                     <a className="hover:underline" href="">
                       Link to Github repo
                     </a>
@@ -244,7 +244,7 @@ function Portfolio() {
                     utilizing TailwindCSS.
                   </p>
 
-                  <div className="font-bold text-lg mt-20 max-w-70 justify-center">
+                  <div className="font-bold text-lg text-cyan-700 mt-20 max-w-70 justify-center">
                     <a className="hover:underline" href="">
                       Link to Github repo
                     </a>
