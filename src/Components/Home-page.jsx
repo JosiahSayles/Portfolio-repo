@@ -6,33 +6,34 @@ function HomePage() {
   return (
     <>
       <VideoBackground src="/videos/backgroundVideo.mp4">
-        <section className=" flex mt-40 justify-center min-h-screen">
-          <div>
-            <figure className="mr-20 mt-10">
+        <section className="flex flex-col md:flex-row mt-8 md:mt-40 justify-center min-h-screen px-4 md:px-0">
+          <div className="w-full md:w-1/3">
+            <figure className="ml-20 mt-10">
               <img
                 src="/img/Profile.picture.jpg"
                 alt="Photo of Josiah in suit"
+                className="w-40 md:w-auto rounded-md object-cover"
               />
               <hr className="h-[1px] mt-10 mb-3 border-0 w-full bg-emerald-950" />
             </figure>
             <div className="flex justify-center">
-              <p className="text-black text-2xl max-w-100 mt-10 bg-white italic  p-5 shadowed-xl text-shadow-md">
+              <p className="text-black text-base md:text-2xl max-w-md mt-6 md:mt-10 bg-white italic p-4 md:p-5 rounded shadowed-xl text-shadow-md">
                 "The hardest thing to do is to be true to yourself, especially
                 when everybody is watching."- Dave Chappelle
               </p>
             </div>
           </div>
-          <div className="">
-            <h1 className="bg-black  flex justify-start pl-20  text-white font-bold text-8xl ">
+          <div className="w-full md:w-2/4">
+            <h1 className="bg-black flex justify-start pl-6 md:pl-20 text-white font-bold text-3xl md:text-8xl">
               Josiah Sayles
             </h1>
             <hr className="h-[1px] border-0 max-w-175 ml-5 bg-white" />
-            <h2 className="bg-black  flex text-emerald-950 text-7xl pl-5 py-2">
+            <h2 className="bg-black flex text-emerald-950 text-xl md:text-7xl pl-5 py-2">
               Front-End | FullStack Web Developer
             </h2>
             <hr className="h-[1px] border-0 w-full bg-white mt-8" />
-            <div className="flex justify-center">
-              <p className="text-black text-2xl max-w-220 mt-10 bg-white   font-semibold p-5 shadowed-xl text-shadow-md">
+            <div className="flex justify-center md:justify-start">
+              <p className="text-black text-sm md:text-2xl max-w-lg mt-6 md:mt-10 bg-white font-semibold p-4 md:p-5 rounded shadowed-xl text-shadow-md">
                 Full-Stack Web Developer focused on building clean, user-driven
                 web applications. Experienced in React, JavaScript, and Python
                 with a passion for learning and shipping real projects. I aim to
@@ -95,7 +96,7 @@ function HomePage() {
             </div>
 
             <hr className="h-[1px] border-0 max-w-175 ml-5 bg-white mt-5" />
-            <div className="text-white text-2xl flex justify-center mt-15  font-semibold  ">
+            <div className="text-white text-base md:text-2xl flex justify-center md:justify-start mt-6 md:mt-15 font-semibold">
               <p>
                 <a
                   href="/Josiah_Sayles_Resume.pdf"

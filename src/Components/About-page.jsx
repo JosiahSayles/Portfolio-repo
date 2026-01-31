@@ -6,7 +6,7 @@ function AboutPage() {
     <>
       <VideoBackground src="/videos/backgroundVideo.mp4">
         <section className=" flex justify-center mt-20 justify-center min-h-screen text-shadow-lg ">
-          <div className="  bg-black max-w-200 p-6 ">
+          <div className="  bg-black  p-6 lg:w-2/5  md:w-2/4 w-full ">
             <h1 className="text-black font-bold text-4xl w-50 p-2 mb-5 bg-white ">
               About me
             </h1>
@@ -56,7 +56,7 @@ function AboutPage() {
                 increase visibility and reach, while simultaneously
                 strengthening and refining my web development skills.
               </p>
-              <figure className="flex">
+              <figure className="flex flex-col md:flex-row gap-2 overflow-hidden">
                 <div className="flex-col ">
                   <img
                     src="img/MarketingBK.jpg"
@@ -72,7 +72,7 @@ function AboutPage() {
                 <img
                   src="img/Mk2.jpg"
                   alt="picture of SiahVille custom stickers on a gamepag green and brown"
-                  className="max-w-90 mt-2 ml-2 mr-2 shadow-xl"
+                  className="w-full md:max-w-125 mt-2 md:ml-2 md:mr-2 shadow-xl object-cover"
                 />
               </figure>
             </div>
