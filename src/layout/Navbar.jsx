@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, NavLink } from "react-router";
 
 export default function Navbar() {
+  const [open, setOpen] = useState(false);
+
   return (
     <>
       <header className="top-0 left-0 w-full shadow-xl z-50 bg-white opacity-95">
