@@ -27,7 +27,7 @@ function Portfolio() {
                 </p>
               </div>
 
-              <div className="w-full md:w-1/2 flex flex-col p-2 md:pl-4">
+              <div className="w-full md:w-2/3 flex flex-col p-2 md:pl-4">
                 <div className="bg-white text-black p-5 rounded-md mt-5 mb-5">
                   <h3 className="font-semibold">Problem Solved:</h3>
                   <p>
@@ -73,13 +73,13 @@ function Portfolio() {
                 </div>
               </div>
 
-              <div className="w-full md:w-1/4 p-2 flex justify-center items-start mt-5">
+              <div className="w-full md:w-2/4 p-2 flex justify-center items-start mt-5">
                 <video
                   autoPlay
                   muted
                   playsInline
                   src="/videos/DiymaOverview.mp4"
-                  className="w-full md:w-full max-w-190 p-2 object-cover rounded"
+                  className="w-full md:w-full max-w-220 p-2 object-cover rounded"
                 />
               </div>
             </div>
