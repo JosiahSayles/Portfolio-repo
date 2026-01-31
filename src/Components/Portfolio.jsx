@@ -40,7 +40,7 @@ function Portfolio() {
                     for collaboration and inspiration.
                   </p>
 
-                  <div className="font-bold text-cyan-700 text-xl mt-6 flex gap-4">
+                  <div className=" flex font-bold text-cyan-700 text-xl mt-6 flex gap-4">
                     <a
                       className="hover:underline"
                       href="https://diyma.netlify.app/"
@@ -55,6 +55,11 @@ function Portfolio() {
                     >
                       Link to Github repo
                     </a>
+                    <img
+                      src="img/GitHub-Logo.png"
+                      alt="Github Logo "
+                      width={50}
+                    />
                   </div>
                 </div>
 
@@ -114,7 +119,7 @@ function Portfolio() {
                   <p>
                     JavaScript, React, Express, Postgres SQL, TailwindCSS, CSS3.
                   </p>
-                  <div className="font-bold text-xl text-cyan-700 mt-6">
+                  <div className=" flex font-bold text-xl text-cyan-700 mt-6">
                     <a
                       className="hover:underline"
                       href="https://github.com/JosiahSayles/SiahVille-Webpage-"
@@ -123,6 +128,11 @@ function Portfolio() {
                     >
                       Link to Github repo
                     </a>
+                    <img
+                      src="img/GitHub-Logo.png"
+                      alt="Github Logo "
+                      width={50}
+                    />
                   </div>
                 </div>
 
@@ -176,7 +186,7 @@ function Portfolio() {
                 <div className="bg-white text-black p-5 rounded-md mt-5">
                   <h4 className="font-semibold">Key Technologies :</h4>
                   <p>Python, Tkinter</p>
-                  <div className="font-bold text-lg text-cyan-700 mt-6">
+                  <div className=" flex font-bold text-lg text-cyan-700 mt-6">
                     <a
                       className="hover:underline"
                       href="https://github.com/JosiahSayles/Data_entry_ui_Python"
@@ -185,6 +195,11 @@ function Portfolio() {
                     >
                       Link to Github repo
                     </a>
+                    <img
+                      src="img/GitHub-Logo.png"
+                      alt="Github Logo "
+                      width={50}
+                    />
                   </div>
                 </div>
 
@@ -236,7 +251,7 @@ function Portfolio() {
                 <div className="bg-white text-black p-5 rounded-md mt-5">
                   <h4 className="font-semibold">Key Technologies :</h4>
                   <p>Python, Tkinter</p>
-                  <div className="font-bold text-lg text-cyan-700 mt-6">
+                  <div className=" flex font-bold text-lg text-cyan-700 mt-6">
                     <a
                       className="hover:underline"
                       href="https://github.com/JosiahSayles/Survey-UI-Python-"
@@ -245,6 +260,11 @@ function Portfolio() {
                     >
                       Link to Github repo
                     </a>
+                    <img
+                      src="img/GitHub-Logo.png"
+                      alt="Github Logo "
+                      width={50}
+                    />
                   </div>
                 </div>
 
@@ -297,7 +317,7 @@ function Portfolio() {
                     component based architecture with a organized module styling
                     utilizing TailwindCSS.
                   </p>
-                  <div className="font-bold text-lg text-cyan-700 mt-6">
+                  <div className=" flex font-bold text-lg text-cyan-700 mt-6">
                     <a
                       className="hover:underline"
                       href="https://github.com/JosiahSayles/Portfolio-repo"
@@ -306,6 +326,11 @@ function Portfolio() {
                     >
                       Link to Github repo
                     </a>
+                    <img
+                      src="img/GitHub-Logo.png"
+                      alt="Github Logo "
+                      width={50}
+                    />
                   </div>
                 </div>
 

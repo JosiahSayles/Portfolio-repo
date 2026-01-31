@@ -31,16 +31,27 @@ function HomePage() {
             <h2 className="bg-black flex text-emerald-950 text-xl md:text-7xl pl-5 py-2">
               Front-End | FullStack Web Developer
             </h2>
+
             <hr className="h-[1px] border-0 w-full bg-white mt-8" />
             <div className="flex justify-center md:justify-start">
               <p className="text-black text-sm md:text-2xl max-w-lg mt-6 md:mt-10 bg-white font-semibold p-4 md:p-5 rounded shadowed-xl text-shadow-md">
-                Full-Stack Web Developer focused on building clean, user-driven
-                web applications. Experienced in React, JavaScript, and Python
-                with a passion for learning and shipping real projects. I aim to
-                grow both personally and professionally.
+                I build clean, responsive web applications with React,
+                JavaScript, and modern UI practices.
               </p>
             </div>
-
+            <div className="text-white text-base md:text-2xl flex justify-center md:justify-end md:mr-100 mt-6 md:mt-15 font-semibold">
+              <p>
+                <a
+                  href="/Josiah_Sayles_Resume.pdf"
+                  download
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn border p-2  bg-black hover:bg-white hover:text-black rounded-lg"
+                >
+                  Download Resume
+                </a>
+              </p>
+            </div>
             <hr className="h-[1px] mt-10 mr-100  mb-3 border-0 max-w-200 bg-white" />
             <div className="flex items-center bg-black text-xl text-white pl-10 pb-5 pt-2 w-max-50 font-semibold">
               <div>
@@ -96,19 +107,6 @@ function HomePage() {
             </div>
 
             <hr className="h-[1px] border-0 max-w-175 ml-5 bg-white mt-5" />
-            <div className="text-white text-base md:text-2xl flex justify-center md:justify-start mt-6 md:mt-15 font-semibold">
-              <p>
-                <a
-                  href="/Josiah_Sayles_Resume.pdf"
-                  download
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn border p-2  bg-black hover:bg-white hover:text-black rounded-lg"
-                >
-                  Download Resume
-                </a>
-              </p>
-            </div>
           </div>
         </section>
       </VideoBackground>

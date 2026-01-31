@@ -14,10 +14,10 @@ function AboutPage() {
             <div className="text-2xl font-semibold bg-emerald-950 p-4 text-white shadow-xl">
               <p className="mb-4">
                 I’m a web developer who enjoys turning ideas into clean,
-                functional, and user-friendly digital experiences. I’m
-                especially drawn to solving problems at the intersection of
-                logic and design—where performance, usability, and
-                maintainability all matter.
+                functional, and user-friendly digital experiences. I enjoy
+                breaking down complex UI problems and turning them into simple,
+                intuitive experiences. I’m especially interested in front-end
+                architecture and performance-focused design.
               </p>
               <p className="mb-4">
                 My journey into development started while I was working as a
