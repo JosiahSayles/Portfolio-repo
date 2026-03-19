@@ -42,7 +42,7 @@ function HomePage() {
             <div className="text-white text-base md:text-2xl flex justify-center md:justify-end md:mr-100 mt-6 md:mt-15 font-semibold">
               <p>
                 <a
-                  href="/Josiah_Sayles_Resume.pdf"
+                  href="/JosiahSaylesTechResume2.pdf"
                   download
                   target="_blank"
                   rel="noopener noreferrer"
@@ -56,14 +56,15 @@ function HomePage() {
             <div className="flex items-center bg-black text-xl text-white pl-10 pb-5 pt-2 w-max-50 font-semibold">
               <div>
                 <p className="font-semibold underline">Featured Projects:</p>
-                <p>- Pyhton Survey UI | Python, Tkinter</p>
                 <p>
-                  - Siahville Sticker E-commerce Site | React, TailwindCSS, JS
+                  - On The Right Track Job application tracker | React,
+                  TailwindCSS, JS, Express Node.js, PostgresSQL
                 </p>
                 <p>
                   - DIYMA Fullstack Web App | React, JS, PostgresSQL, Express,
                   Node.js, TailwindCSS
                 </p>
+                <p>- Pyhton Survey UI | Python, Tkinter</p>
               </div>
               <Link to="/Portfolio">
                 <button className="bg-black text-white border p-2 ml-15 max-h-20 rounded-md mt-2 cursor:pointer hover:bg-white hover:text-black">

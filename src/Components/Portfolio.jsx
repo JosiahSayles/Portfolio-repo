@@ -8,9 +8,151 @@ function Portfolio() {
         <section className="flex flex-col mt-20 justify-items-center items-center min-h-screen mb-10 px-4 md:px-0">
           <div className="flex flex-col text-white justify-items-center max-w-500 bg-black p-6">
             <h1 className="text-white text-4xl mb-10 underline">Projects</h1>
-
             <h2 className="text-xl font-semibold mb-4 ">
-              P1. Diyma Diyma — The Do-It-Yourself Project Management App
+              P1. On The Right Track - Job Application Tracking Web App
+            </h2>
+
+            <div className="flex flex-col  md:flex-row bg-emerald-950">
+              <div className="w-full md:w-1/4 p-2 bg-emerald-950 rounded-md mt-5">
+                <h3 className="font-semibold mb-2">Overview :</h3>
+                <p>
+                  On the right track is a A full-stack job application tracking
+                  app that helps users organize applications, track statuses,
+                  and manage interview timelines. Built with a responsive React
+                  frontend and supported by RESTful APIs and a PostgreSQL
+                  database, the application focuses on usability, scalability,
+                  and real-world problem solving.
+                </p>
+              </div>
+
+              <div className="w-full md:w-2/3 flex flex-col p-2 md:pl-4">
+                <div className="bg-white text-black p-5 rounded-md mt-5 mb-5">
+                  <h3 className="font-semibold">Problem Solved:</h3>
+                  <p>
+                    The application features a responsive, component-driven user
+                    interface built with React, enabling seamless navigation and
+                    real-time interaction with application data. Users can
+                    filter and search through applications by company and
+                    status, allowing for quick access to relevant information.
+                    On the backend, RESTful APIs and a structured PostgreSQL
+                    database support reliable data management and scalability.
+                    The system is designed with clean architecture principles to
+                    ensure maintainability and future feature expansion. This
+                    project was developed to solve a common real-world
+                    challenge—managing a high volume of job applications—and
+                    serves as a practical tool that I actively use in my own job
+                    search.
+                  </p>
+
+                  <div className=" flex font-bold text-cyan-700 text-xl mt-6 flex gap-4">
+                    <a
+                      className="hover:underline"
+                      href="https://github.com/rpower271/DIYMA-Front-End"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Link to Github repo
+                    </a>
+                    <img
+                      src="img/GitHub-Logo.png"
+                      alt="Github Logo "
+                      width={50}
+                    />
+                  </div>
+                </div>
+
+                <div className="bg-white text-black p-5 rounded-md mt-2">
+                  <h4 className="font-semibold">Key Technologies:</h4>
+                  <p>
+                    Frontend: React, JavaScript, Tailwind CSS, React Router
+                    Backend: Node.js, Express Database: PostgreSQL Testing:
+                    Vitest
+                  </p>
+                </div>
+              </div>
+
+              <div className="w-full md:w-2/4 p-2 flex justify-center items-start mt-5">
+                <video
+                  autoPlay
+                  muted
+                  playsInline
+                  src="/videos/OnTheRightTrackDemo.mp4"
+                  className="w-full md:w-full max-w-220 p-2 object-cover rounded"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col text-white justify-items-center max-w-500 bg-black p-6 mt-6">
+            <h2 className="text-xl font-semibold mb-4 ">
+              P2. Portfolio Website
+            </h2>
+
+            <div className="flex flex-col md:flex-row bg-emerald-950">
+              <div className="w-full md:w-1/4 p-2 bg-emerald-950 rounded-md mt-5">
+                <h3 className="font-semibold">Overview :</h3>
+                <p>
+                  Designed and developed a personal portfolio website to
+                  showcase my technical skill set, highlight current and past
+                  projects, and provide recruiters, hiring teams, and the
+                  general public with an easy way to learn more about me and get
+                  in contact.
+                </p>
+              </div>
+
+              <div className="w-full md:w-1/2 p-2">
+                <div className="bg-white text-black p-5 rounded-md mt-4">
+                  <h4 className="font-semibold">Problem Solved: </h4>
+                  <p>
+                    I built my portfolio website to solve the challenge of
+                    effectively showcasing my projects, technical skills, and
+                    growth as a developer in a clear and accessible way. Relying
+                    solely on a resume or GitHub can make it difficult to
+                    communicate the full context behind projects, including
+                    design decisions, problem-solving approaches, and real-world
+                    applications. This portfolio provides a centralized,
+                    user-friendly platform where recruiters and collaborators
+                    can quickly explore my work, understand my development
+                    process, and see how I translate ideas into functional,
+                    polished applications.
+                  </p>
+                </div>
+                <div className="bg-white text-black p-5 rounded-md mt-5">
+                  <h4 className="font-semibold">Key Technologies :</h4>
+                  <p>
+                    JavaScript the primary language, HTML5, using React for
+                    component based architecture with a organized module styling
+                    utilizing TailwindCSS.
+                  </p>
+                  <div className=" flex font-bold text-lg text-cyan-700 mt-6">
+                    <a
+                      className="hover:underline"
+                      href="https://github.com/JosiahSayles/Portfolio-repo"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Link to Github repo
+                    </a>
+                    <img
+                      src="img/GitHub-Logo.png"
+                      alt="Github Logo "
+                      width={50}
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <figure className="w-full md:w-1/4 p-2 mt-5">
+                <img
+                  src="/img/Portfolio.png"
+                  alt="ScreenShot of Portfolio home page"
+                  className="w-full object-cover rounded"
+                />
+              </figure>
+            </div>
+          </div>
+          <div className="flex flex-col text-white justify-items-center max-w-500 bg-black p-6 mt-6">
+            <h2 className="text-xl font-semibold mb-4 ">
+              P3. Diyma Diyma — The Do-It-Yourself Project Management App
               Overview
             </h2>
 
@@ -291,70 +433,6 @@ function Portfolio() {
           </div>
 
           <hr className="h-[10px] border-0 max-w-175 ml-5 bg-white my-6" />
-
-          <div className="flex flex-col text-white justify-items-center max-w-500 bg-black p-6 mt-6">
-            <h2 className="text-xl font-semibold mb-4 ">
-              P5. Portfolio Website
-            </h2>
-
-            <div className="flex flex-col md:flex-row bg-emerald-950">
-              <div className="w-full md:w-1/4 p-2 bg-emerald-950 rounded-md mt-5">
-                <h3 className="font-semibold">Overview :</h3>
-                <p>
-                  Designed and developed a personal portfolio website to
-                  showcase my technical skill set, highlight current and past
-                  projects, and provide recruiters, hiring teams, and the
-                  general public with an easy way to learn more about me and get
-                  in contact.
-                </p>
-              </div>
-
-              <div className="w-full md:w-1/2 p-2">
-                <div className="bg-white text-black p-5 rounded-md mt-5">
-                  <h4 className="font-semibold">Key Technologies :</h4>
-                  <p>
-                    JavaScript the primary language, HTML5, using React for
-                    component based architecture with a organized module styling
-                    utilizing TailwindCSS.
-                  </p>
-                  <div className=" flex font-bold text-lg text-cyan-700 mt-6">
-                    <a
-                      className="hover:underline"
-                      href="https://github.com/JosiahSayles/Portfolio-repo"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Link to Github repo
-                    </a>
-                    <img
-                      src="img/GitHub-Logo.png"
-                      alt="Github Logo "
-                      width={50}
-                    />
-                  </div>
-                </div>
-
-                <div className="bg-white text-black p-5 rounded-md mt-4">
-                  <h4 className="font-semibold">Project Status: Complete </h4>
-                  <p>
-                    Built the website using JavaScript and React, leveraging a
-                    component-based architecture to promote clean, readable, and
-                    maintainable code. The structure was intentionally designed
-                    for scalability, allowing new features, pages, and projects
-                    to be added efficiently as my portfolio evolves over time.
-                  </p>
-                </div>
-              </div>
-
-              <figure className="w-full md:w-1/4 p-2 mt-5">
-                <img
-                  src="/img/Portfolio.png"
-                  alt="ScreenShot of Portfolio home page"
-                  className="w-full object-cover rounded"
-                />
-              </figure>
-            </div>
-          </div>
         </section>
       </VideoBackground>
     </>
