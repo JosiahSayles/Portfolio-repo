@@ -42,7 +42,7 @@ function HomePage() {
             <div className="text-white text-base md:text-2xl flex justify-center md:justify-end md:mr-100 mt-6 md:mt-15 font-semibold">
               <p>
                 <a
-                  href="/JosiahSaylesTechResume2.pdf"
+                  href="/Josiah-SaylesTechResume.pdf"
                   download
                   target="_blank"
                   rel="noopener noreferrer"

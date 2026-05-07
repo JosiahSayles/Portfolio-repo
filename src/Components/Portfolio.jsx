@@ -47,7 +47,15 @@ function Portfolio() {
                   <div className=" flex font-bold text-cyan-700 text-xl mt-6 flex gap-4">
                     <a
                       className="hover:underline"
-                      href="https://github.com/rpower271/DIYMA-Front-End"
+                      href="https://ontherighttrack.vercel.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Link to site
+                    </a>
+                    <a
+                      className="hover:underline"
+                      href="https://github.com/JosiahSayles/OnTheRightTrack"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -65,8 +73,8 @@ function Portfolio() {
                   <h4 className="font-semibold">Key Technologies:</h4>
                   <p>
                     Frontend: React, JavaScript, Tailwind CSS, React Router
-                    Backend: Node.js, Express Database: PostgreSQL Testing:
-                    Vitest
+                    Backend: Node.js, Express Database: PostgreSQL, Cloudinary
+                    cloud service, Testing: Vitest, Deployment: Render & Vercel
                   </p>
                 </div>
               </div>
